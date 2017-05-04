@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: aliceblue url("/images/images23.jpeg");
+    background: aliceblue url("/images/image23.png");
     border-bottom: 40px solid aliceblue;
     /* background: rgb(122, 157, 150);*/
     background-size: cover;
@@ -42,7 +42,7 @@ h2 {
 .box {
     /* position: relative;
     background: #edeff0;*/
-    background: blue;
+    background: rgb(210, 233, 249);
     max-width: 100%;
     margin: 0 auto;
     border-radius: 15px;
@@ -86,7 +86,7 @@ h2 {
 .listskills {
     max-width: 100%;
     font-family: 'proxima-nova', sans-serif;
-    background: aliceblue
+    background: #f7f5f6;
 }
 
 .listskills .skillset-wrapper {
@@ -137,6 +137,12 @@ td {
 
 td {
     font-size: 16px;
+}
+
+.midsection {
+    background: #f7f5f6;
+    width: 100%;
+    background-size: cover;
 }
 
 .flexdesign {
