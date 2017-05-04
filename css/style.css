@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: url("images/images23.jpeg");
+    background: aliceblue url("/images/images23.jpeg");
     border-bottom: 40px solid aliceblue;
     /* background: rgb(122, 157, 150);*/
     background-size: cover;
@@ -86,6 +86,7 @@ h2 {
 .listskills {
     max-width: 100%;
     font-family: 'proxima-nova', sans-serif;
+    background: aliceblue
 }
 
 .listskills .skillset-wrapper {
