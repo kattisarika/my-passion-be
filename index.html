@@ -6,6 +6,7 @@
     <title>MY PASSION</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -28,7 +29,9 @@
 
 
             <div class="flexresp">
+
                 <a class="aflex" href="https://travel-destiny-app.herokuapp.com/" target="_blank">
+                    <button id="viewDemo">View Demo</button>
 
                     <figure>
                         <img src="images/img1.jpeg" alt="">
@@ -39,6 +42,7 @@
                     </figure>
                 </a>
                 <a class="aflex" href=" https://mysterious-badlands-15256.herokuapp.com/" target="_blank">
+                    <button id="viewDemo">View Demo</button>
                     <figure>
                         <img src="images/img2.jpeg" alt="">
                         <figcaption>
@@ -51,6 +55,7 @@
 
 
                 <a class="aflex" href="https://dashboard.heroku.com/apps/hbc-demo" target="_blank">
+                    <button id="viewDemo">View Demo</button>
                     <figure>
                         <img src="images/img3.jpeg" alt="">
                         <figcaption>
@@ -62,6 +67,7 @@
 
 
                 <a class="aflex" href="https://kattisarika.github.io/CatstoneProject/" target="_blank">
+                    <button id="viewDemo">View Demo</button>
                     <figure>
                         <img src="images/img4.jpg" alt="">
                         <figcaption>
@@ -72,6 +78,7 @@
                 </a>
 
                 <a class="aflex" href="https://github.com/kattisarika" target="_blank">
+                    <button id="viewDemo">View Demo</button>
                     <figure>
                         <img src="images/img7.jpeg" alt="">
                         <figcaption>
@@ -81,6 +88,7 @@
                 </a>
 
                 <a class="aflex" href="https://kattisarika.github.io/QuizApp" target="_blank">
+                    <button id="viewDemo">View Demo</button>
                     <figure>
                         <img src="images/img5.jpg" alt="">
                         <figcaption>
@@ -89,6 +97,7 @@
                     </figure>
                 </a>
                 <a class="aflex" href="https://kattisarika.github.io/GregsList/index.html">
+                    <button id="viewDemo">View Demo</button>
                     <figure>
                         <img src="images/img6.jpg" alt="">
                         <figcaption>
@@ -112,10 +121,11 @@
             <h3>Skills</h3>
             <div class="skillset"><i class="fa fa-html5 " aria-hidden="true "></i> <span>HTML5</span></div>
             <div class="skillset"><i class="fa fa-css3 " aria-hidden="true "></i> <span>CSS3</span></div>
-            <div class="skillset"><i class="fa fa-css3 " aria-hidden="true "></i> <span>JavaScript</span></div>
-            <div class="skillset"><i class="fa fa-css3 " aria-hidden="true "></i> <span>React</span></div>
-            <div class="skillset"><i class="fa fa-css3 " aria-hidden="true "></i> <span>NodeJS</span></div>
-            <div class="skillset"><i class="fa fa-css3 " aria-hidden="true "></i> <span>Java</span></div>
+            <div class="skillset"><i class="fa fa-jsfiddle" aria-hidden="true"></i>
+                <span>JavaScript</span></div>
+            <div class="skillset"><i class="fa fa-rocket" aria-hidden="true"></i> <span>React</span></div>
+            <div class="skillset"><i class="fa fa-arrows" aria-hidden="true"></i> <span>NodeJS</span></div>
+            <div class="skillset"><i class="fa fa-coffee" aria-hidden="true"></i> <span>Java</span></div>
             <div class="skillset"><i class="fa fa-database" aria-hidden="true"></i> <span>MongoDB</span></div>
             <div class="skillset"><i class="fa fa-database" aria-hidden="true"></i> <span>MySQL</span></div>
             <div class="skillset"><i class="fa fa-database" aria-hidden="true"></i><span>Postgres</span></div>
@@ -124,7 +134,20 @@
 
     </div>
 
-    #f7f5f6
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("button").hide();
+            $(".aflex").mouseover(function () {
+                $("button").show();
+            });
+            $(".aflex").mouseout(function () {
+                $("button").hide();
+            });
+        });
+    </script>
 
 
 </body>
