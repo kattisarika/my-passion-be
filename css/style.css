@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: url("../images/image23.png");
+    background: url("../images/images23.jpeg");
     /*border-bottom: 40px solid aliceblue;
    background: rgb(122, 157, 150);*/
     background-size: cover;
@@ -37,6 +37,10 @@ h2 {
     text-shadow: 0px 0px 500px #000;
     float: left;
     margin-left: 5%;
+}
+
+.titlespan {
+    font-family: 'Jim Nightshade', cursive;
 }
 
 .box {
@@ -151,6 +155,12 @@ td {
     width: 80%;
     margin: 30px auto;
     font-family: sans-serif;
+}
+
+.aboutme-inner {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
 }
 
 .midsection {
