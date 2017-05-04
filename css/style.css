@@ -59,8 +59,8 @@ h2 {
 }
 
 .dog-ear:after {
-    border-top: 120px solid transparent;
-    border-left: 120px solid aliceblue;
+    border-top: 65px solid transparent;
+    border-left: 65px solid aliceblue;
 }
 
 .linkedIna {
@@ -139,6 +139,19 @@ td {
     font-size: 16px;
 }
 
+.firstsection {
+    margin-top: 100px;
+    background: #f7f5f6;
+    width: 100%;
+    background-size: cover;
+}
+
+.aboutme {
+    width: 80%;
+    margin: 30px auto;
+    font-family: sans-serif;
+}
+
 .midsection {
     background: #f7f5f6;
     width: 100%;
@@ -180,6 +193,7 @@ figure {
 
 figcaption {
     margin-top: 15px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 #viewDemo {
