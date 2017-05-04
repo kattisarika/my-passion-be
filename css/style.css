@@ -14,9 +14,9 @@ body {
 }
 
 header {
-    background: aliceblue url("/images/image23.png");
-    border-bottom: 40px solid aliceblue;
-    /* background: rgb(122, 157, 150);*/
+    background: url("../images/image23.png");
+    /*border-bottom: 40px solid aliceblue;
+   background: rgb(122, 157, 150);*/
     background-size: cover;
     max-width: 100%;
     z-index: 1;
@@ -59,8 +59,8 @@ h2 {
 }
 
 .dog-ear:after {
-    border-top: 70px solid transparent;
-    border-left: 70px solid aliceblue;
+    border-top: 120px solid transparent;
+    border-left: 120px solid aliceblue;
 }
 
 .linkedIna {
