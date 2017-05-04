@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: url("/images/images23.jpeg");
+    background: url("images/images23.jpeg");
     border-bottom: 40px solid aliceblue;
     /* background: rgb(122, 157, 150);*/
     background-size: cover;
