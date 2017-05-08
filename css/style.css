@@ -31,7 +31,11 @@ header {
 
 h1 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     color: white;
+=======
+     color: white;
+>>>>>>> origin/master
 =======
      color: white;
 >>>>>>> origin/master
@@ -157,6 +161,7 @@ td {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*.firstsection {
 margin-top: 100px;
@@ -173,6 +178,8 @@ background-size: cover;
     width: 100%;
     height: 30%;*/
 =======
+=======
+>>>>>>> origin/master
 /*.firstsection {
     margin-top: 100px;
     background: #f7f5f6;
@@ -187,6 +194,9 @@ background-size: cover;
     /*  background-size: cover;
     width: 100%;
      height: 30%;*/
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
     margin: 0 auto;
 }
