@@ -7,14 +7,21 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html {
     width: 100%;
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    background: aliceblue url("../images/images23.jpeg") repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* background: #f7f5f6;*/
+}
+
 header {
-    background: url("../images/images23.jpeg");
+    background: rgba(122, 157, 150, 0.7);
     /*border-bottom: 40px solid aliceblue;
    background: rgb(122, 157, 150);*/
     background-size: cover;
