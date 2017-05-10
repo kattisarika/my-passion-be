@@ -60,8 +60,10 @@ h2 {
     max-width: 100%;
     padding: 3%;
     margin: 0 auto;
-    border-radius: 15px;
+    /* border-radius: 15px;*/
     text-align: center;
+    background: rgba(122, 157, 150, 0.1);
+    /*rgba(0, 0, 0, 0.1);*/
 }
 
 .dog-ear:before,
@@ -101,6 +103,7 @@ h2 {
 .listskills {
     max-width: 100%;
     font-family: 'proxima-nova', sans-serif;
+    border-bottom: 25px solid rgba(0, 0, 0, 0.5);
 }
 
 .listskills .skillset-wrapper {
