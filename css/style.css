@@ -197,7 +197,14 @@ background-size: cover;
 }
 
 .flexresp {
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     display: flex;
+    /* NEW, Spec - Firefox, Chrome, Opera */
     flex-wrap: wrap;
 }
 
@@ -254,6 +261,7 @@ figcaption {
     height: 100%;
     left: 0;
     opacity: 0;
+    width: 300px;
     height: 300px;
     position: absolute;
     text-align: center;
@@ -267,13 +275,13 @@ figcaption {
 figcaption p {
     display: table-cell;
     font-size: 14px;
-    position: relative;
-    top: -0px;
-    width: 100%;
+    top: -20px;
     line-height: 20px;
     vertical-align: middle;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    padding: 15%;
+    text-align: center;
 }
 
 .aflex:hover figcaption {
