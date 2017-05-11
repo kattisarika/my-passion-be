@@ -236,13 +236,18 @@ background-size: cover;
     -webkit-flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 35px;
+    flex-direction: row;
+    /* nested items stack vertically */
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    min-height: 40em;
 }
 
 .aflex {
     margin-bottom: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     */
 }
