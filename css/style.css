@@ -213,6 +213,7 @@ background-size: cover;
 .emailDes {
     color: #301915;
     font-weight: bolder;
+    text-decoration:none;
 }
 
 .midsection {
